@@ -10,6 +10,8 @@ module.exports = {
     coverageDirectory: './coverage', // Output directory for code coverage
     moduleFileExtensions: ['ts', 'js', 'json'], // Recognize .ts, .js, and .json file extensions
     testTimeout: 20000,
-    globalSetup: './src/test/setup.ts'
+    setupFilesAfterEnv: [
+      "<rootDir>/src/test/setup.ts"
+    ]
   };
   

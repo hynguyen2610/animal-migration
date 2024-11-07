@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 import { MongoMemoryServer } from 'mongodb-memory-server';
-import Animal from '../src/models/Animal';
+import Animal from '../models/Animal';
 
 let mongoServer: MongoMemoryServer;
 
