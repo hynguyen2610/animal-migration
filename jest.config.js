@@ -9,6 +9,7 @@ module.exports = {
     collectCoverage: true,  // Enable code coverage
     coverageDirectory: './coverage', // Output directory for code coverage
     moduleFileExtensions: ['ts', 'js', 'json'], // Recognize .ts, .js, and .json file extensions
-    testTimeout: 20000
+    testTimeout: 20000,
+    globalSetup: './src/test/setup.ts'
   };
   
